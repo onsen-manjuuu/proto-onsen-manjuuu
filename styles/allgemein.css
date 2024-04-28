@@ -6,35 +6,9 @@ body {
 a {
     text-decoration: none;
 }
-.imgs ul{
-    display:grid;
-    grid-template-columns: 220px 220px 220px;
-    margin: auto;
-    /* gap: 0px; */
-}
-
-.imgs img {
-    height: 220px;
-    width: 220px;
-    object-fit:cover;
-    box-sizing: border-box;
-}
-.imgs img:hover{
-    border: grey solid 2px;
-
-}
-
-.imgs ul{
-    list-style: none;
-}
-.imgs ul{
-    margin: none;
-}
 
 main {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .wrapper {
@@ -90,4 +64,11 @@ header ul li {
 }
 header nav {
     text-align: right;
+}
+
+.innerimg {
+    object-fit:cover;
+    width: 45rem;
+    margin: auto;
+    cursor: pointer;
 }

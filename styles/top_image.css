@@ -1,0 +1,30 @@
+.imgs ul{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    /* gap: 0px; */
+}
+
+.imgs img {
+    height: 200px;
+    width: 200px;
+    object-fit:cover;
+    box-sizing: border-box;
+}
+
+.imgs.bigger img{
+    height: 220px;
+    width: 220px;
+}
+
+.imgs img:hover{
+    border: grey solid 2px;
+
+}
+
+
+.imgs ul{
+    list-style: none;
+}
+.imgs ul{
+    margin: none;
+}
