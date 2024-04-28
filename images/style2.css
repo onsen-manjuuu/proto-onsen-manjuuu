@@ -91,13 +91,3 @@ header ul li {
 header nav {
     text-align: right;
 }
-
-.innerimg {
-    object-fit:cover;
-    width: 45rem;
-    margin: auto;
-    cursor: pointer;
-    /* align-items: center; */
-
-
-}
