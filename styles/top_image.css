@@ -1,12 +1,13 @@
 .imgs ul{
     display:grid;
-    grid-template-columns: 200px 200px 200px;
+    max-width: 100%;
     /* gap: 0px; */
 }
 
 .imgs img {
     height: 200px;
     width: 200px;
+    grid-template-columns: 200px 200px 200px;
     object-fit:cover;
     box-sizing: border-box;
 }
@@ -20,7 +21,6 @@
     border: grey solid 2px;
 
 }
-
 
 .imgs ul{
     list-style: none;

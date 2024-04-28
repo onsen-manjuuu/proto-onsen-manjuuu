@@ -18,6 +18,7 @@ main {
     margin: 0 auto;
     color: #222;
 }
+
 main,header{
     margin:1rem;
     line-height: 1.8rem;
@@ -44,11 +45,13 @@ footer span {
 header a {
     color:#222
 }
+
 header {
     display: flex;
 }
 header h1 {
-    margin-right: 17rem;
+    /* margin-right: 17rem; */
+    margin-right: auto;
 }
 header ul {
     display: flex;
@@ -66,9 +69,12 @@ header nav {
     text-align: right;
 }
 
+
 .innerimg {
-    object-fit:cover;
-    width: 45rem;
-    margin: auto;
+    object-fit:contain;
+    width: 60rem;
+    max-width:100%;
+
+    /* margin: auto; */
     cursor: pointer;
 }
