@@ -1,20 +1,21 @@
 .imgs ul{
     display:grid;
-    max-width: 100%;
-    /* gap: 0px; */
+    /* max-width: 100%; */
+    grid-template-columns: 33% 33% 33%;
+    /* grid-template-rows: 33% 33% 200px; */
+    gap: 0.2rem;
 }
 
 .imgs img {
-    height: 200px;
-    width: 200px;
-    grid-template-columns: 200px 200px 200px;
+    height: 100%;
+    width: 100%;
     object-fit:cover;
     box-sizing: border-box;
 }
 
 .imgs.bigger img{
-    height: 220px;
-    width: 220px;
+    height: 100%;
+    width: height;
 }
 
 .imgs img:hover{
