@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>特殊文字変換</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header>
+            <h1 class="title"><a href="../index.html">onsen-manjuuu.net</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../blog/index.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="aboutThisPage">
+                <h1>ドイツ語特殊文字変換</h1>
+                <h2>このページについて</h2>
+                <p>
+                    ドイツ語と日本語が混じった文章を書くとき(たとえばankiなどで使うカードを作っているとき)、いちいちキーボードを変えるのがめんどくさい。<br>
+                    特殊文字が使えない場合の書き方から、特殊文字を復元しちゃえばいい。<br>
+                    とはいえ、GoetheがGötheになったり、dassがdaßになったりすると少し困る。 <br>
+                </p>
+            </div>
+                <h2>使い方</h2>
+                <ol>
+                    <li><span>Ae</span>,<span>ae</span>,<span>Oe</span>,<span>oe</span>,<span>Ue</span>,<span>ue</span>はそれぞれ<span>Ä</span>,<span>ä</span>,<span>Ö</span>,<span>ö</span>,<span>Ü</span>,<span>ü</span>に置き換えられる</li>
+                    <li><span>_ss</span>は<span>ß</span>に置き換えられる</li>
+                    <li>1.の規則は、直前に<span>$</span>をおいたときは無視される。つまり<span>$oe</span>は<span>oe</span>に置き換えられる</li>
+                </ol>
+                <div class="input">
+                    <h2>入力</h2>
+                    <textarea spellcheck = "false" cols=70 rows="8"></textarea>
+                    <button class="execute">変換</button>
+                </div>
+                <div class="output">
+                    <h2>出力</h2>
+                    <textarea spellcheck = "false" cols="70" rows = "8"></textarea>
+                    <button class="download">tsv形式でダウンロード</button>
+                    
+                </div>
+                <p>特殊文字が使えない環境→特殊文字の変換をしたいときってなにかきまった規則があるのかな、あったらごめん
+                äöüßの呼び方って特殊文字でいいのかな</p>
+        </main>
+        <footer>
+            <a href="https://twitter.com/_onsen_manjuuu" class="icon"><img src="../Bilder/twitter.svg"> <span class="username">@_onsen_manjuuu</span></a>
+        </footer>
+        </div>
+    </body>
+</html>

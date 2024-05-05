@@ -3,26 +3,22 @@
 body {
     font-family: "Zen Kaku Gothic Antique", sans-serif;
     background-color: rgb(197, 197, 197);
-
+    display:flex;
 }
 a {
     text-decoration: none;
 }
 
-main {
-    display: flex;
-}
+
 
 .wrapper {
-    max-width: 50rem;
-    background-color: rgb(197, 197, 197);
     border-radius: 10px;
     margin: 0 auto;
     color: #222;
 }
 
 main,header{
-    margin:1rem;
+    /* margin:1rem; */
     line-height: 1.8rem;
 }
 
@@ -52,7 +48,6 @@ header {
     display: flex;
     border-bottom: #888 solid 1px;
 }
-
 header h1 {
     /* margin-right: 17rem; */
     margin-right: auto;
@@ -73,13 +68,6 @@ header nav {
     text-align: right;
 }
 
-.index li {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    list-style: none;
-    font-weight:100;
-}
-
 .innerimg {
     object-fit:contain;
     width: 60rem;
@@ -87,4 +75,13 @@ header nav {
 
     /* margin: auto; */
     cursor: pointer;
+}
+
+textarea {
+    background-color:#ddd;
+}
+
+main span {
+    background-color: #ddd;
+    border-radius: 2px;
 }
